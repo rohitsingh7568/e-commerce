@@ -1,0 +1,157 @@
+
+.main-cart{
+    background: #ddd !important;
+    /* min-height: 100vh !important; */
+    vertical-align: middle !important;
+    display: flex !important;
+    font-family: sans-serif !important;
+    font-size: 0.8rem !important;
+    font-weight: bold !important;
+
+}
+.title{
+    margin-bottom: 5vh !important;
+}
+.card{
+  position: relative;
+  margin: auto;
+  top: 150px;
+  margin-bottom: 200px;
+    max-width: 1440px !important;
+    height: auto;
+    width: 90% !important;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+    border-radius: 1rem !important;
+    border: transparent !important;
+}
+@media(max-width:767px){
+    .card{
+        margin: 3vh auto !important;
+    }
+}
+.cart{
+    background-color: #fff !important;
+    padding: 4vh 5vh !important;
+    border-bottom-left-radius: 1rem !important;
+    border-top-left-radius: 1rem !important;
+}
+@media(max-width:767px){
+    .cart{
+        padding: 4vh !important;
+        border-bottom-left-radius: unset !important;
+        border-top-right-radius: 1rem !important;
+    }
+}
+.summary{
+    background-color: #ddd !important;
+    border-top-right-radius: 1rem !important;
+    border-bottom-right-radius: 1rem !important;
+    padding: 4vh !important;
+    color: rgb(65, 65, 65) !important;
+}
+@media(max-width:767px){
+    .summary{
+    border-top-right-radius: unset !important;
+    border-bottom-left-radius: 1rem !important;
+    }
+}
+.summary .col-2{
+    padding: 0 !important;
+}
+.summary .col-10
+{
+    padding: 0 !important;
+}.row{
+    margin: 0 !important;
+}
+.title b{
+    font-size: 1.5rem !important;
+}
+.main{
+    margin: 0 !important;
+    padding: 2vh 0 !important;
+    width: 100% !important;
+}
+.col-2, .col{
+    padding: 0 1vh !important;
+}
+a{
+    padding: 0 1vh !important;
+    text-decoration: none;
+}
+.close{
+    margin-left: 50px !important;
+
+    font-size: 0.7rem !important;
+    cursor: pointer;
+}
+.img-main{
+    width: 3.5rem !important;
+}
+.back-to-shop{
+    margin-top: 4.5rem !important;
+}
+h5{
+    margin-top: 4vh !important;
+}
+hr{
+    margin-top: 1.25rem !important;
+}
+form{
+    padding: 2vh 0 !important;
+}
+select{
+    border: 1px solid rgba(0, 0, 0, 0.137) !important;
+    padding: 1.5vh 1vh !important;
+    margin-bottom: 4vh !important;
+    outline: none !important;
+    width: 100% !important;
+    background-color: rgb(247, 247, 247) !important;
+}
+.input2{
+    border: 1px solid rgba(0, 0, 0, 0.137) !important;
+    padding: 1vh !important;
+    margin-bottom: 4vh !important;
+    outline: none !important;
+    width: 100% !important;
+    background-color: rgb(247, 247, 247) !important;
+}
+.input2:focus::-webkit-input-placeholder
+{
+      color:transparent !important;
+}
+.btn2 {
+    background-color: black !important;
+    border-color: #000 !important;
+    color: white !important;
+    width: 100% !important;
+    font-size: 0.7rem !important;
+    margin-top: 4vh !important;
+    padding: 1vh !important;
+    border-radius: 0 !important;
+}
+.btn2 :focus{
+    box-shadow: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    color: white !important;
+    -webkit-box-shadow: none !important;
+    -webkit-user-select: none !important;
+    transition: none !important ;
+}
+.btn2 :hover{
+    color: white !important;
+}
+a{
+    color: black !important ;
+}
+a:hover{
+    color: black !important;
+    text-decoration: none !important;
+}
+ #code{
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.253) , rgba(255, 255, 255, 0.185)), url("https://img.icons8.com/small/16/000000/long-arrow-right.png") !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 95% !important;
+    background-position-y: center !important;
+}
